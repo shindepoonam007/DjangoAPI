@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-v7*do7a7%(c+^6t7&0a1f!yk#@37il667+^ekjle3c3w9on%#f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://blebluapp.azurewebsites.net/']
+#ALLOWED_HOSTS = ['https://blebluapp.azurewebsites.net/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
